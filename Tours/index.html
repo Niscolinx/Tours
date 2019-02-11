@@ -13,17 +13,33 @@
 </head>
 
 <body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon"></span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#blank" class="navigation__link"><span>01</span>About Natours</a></li>
+                <li class="navigation__item"><a href="#blank" class="navigation__link"><span>02</span>Your benefits</a></li>
+                <li class="navigation__item"><a href="#blank" class="navigation__link"><span>03</span>Popular tours</a></li>
+                <li class="navigation__item"><a href="#blank" class="navigation__link"><span>04</span>Stories</a></li>
+                <li class="navigation__item"><a href="#blank" class="navigation__link"><span>05</span>Book now</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class="header">
-        <div class="logo-img">
-            <img src="./img/images (1).jpg" alt="logo" class="logo">
+        <div class="header__logo-box">
+            <img src="./img/My logo.png" alt="logo" class="header__logo">
         </div>
 
-        <div class="text-box">
+        <div class="header__text-box">
             <h1 class="heading-primary">
-                <span class="heading-primary-main">outdoors</span>
-                <span class="heading-primary-sub">is where life happens</span>
+                <span class="heading-primary--main">outdoors</span>
+                <span class="heading-primary--sub">is where life happens</span>
             </h1>
-            <a href="#" class="btn btn-white btn-animated">discover our tours</a>
+            <a href="#" class="btn btn--white btn--animated clicked">discover our tours</a>
         </div>
     </header>
 
@@ -40,26 +56,25 @@
                         you're going to fall in love with nature
                     </h3>
                     <p class="paragraph">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint error earum molestiae sequi
-                        ullam consequuntur mollitia ipsam? Nihil amet in reiciendis rerum laborum qui eos quaerat ad
-                        necessitatibus? Aspernatur, eveniet!
+                        Unprecedented challenge collaborate indicators targeted mobilize strengthening infrastructure;
+                        low-hanging fruit milestones think tank.
+                        NGO dynamic global capacity building green space, overcome injustice or disrupt milestones.
                     </p>
 
                     <h3 class="heading-tertiary u-margin-bottom-small">
                         Live and explore adventures like never before
                     </h3>
                     <p class="paragraph">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, minus voluptatibus
-                        necessitatibus ad esse pariatur! Officia natus ex impedit maiores, iste nihil eius molestias
-                        aut perspiciatis in voluptatibus, dignissimos sequi.
+                        Our work think tank; sustainable collaborative cities transparent white paper. Do-gooder;
+                         social capital design thinking social innovation external partners collaborative consumption benefit corporation philanthropy correlation.
                     </p>
                     <a href="#blank" class="btn-text">Learn more &rarr;</a>
                 </div>
                 <div class="col-1-of-2">
                     <div class="composition">
-                        <img src="./img/man on a horse.jpg" alt="photo-1" class="composition-photo composition-photo-1">
-                        <img src="./img/garden trees.jpg" alt="photo-2" class="composition-photo composition-photo-2">
-                        <img src="./img/pathway.jpg" alt="photo-3" class="composition-photo composition-photo-3">
+                        <img src="./img/garden trees.jpg" alt="photo-2" class="composition__photo composition__photo--2">
+                        <img src="./img/man on a horse.jpg" alt="photo-1" class="composition__photo composition__photo--1">
+                        <img src="./img/pathway.jpg" alt="photo-3" class="composition__photo composition__photo--3">
                     </div>
                 </div>
             </div>
@@ -69,100 +84,103 @@
             <div class="row">
                 <div class="col-1-of-4">
                     <div class="feature-box">
-                        <i class="feature-box-icon icon-basic-world"></i>
+                        <i class="feature-box__icon icon-basic-world"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">
                             explore the world
                         </h3>
-                        <p class="feature-box-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <p class="feature-box__text">
+                             low-hanging fruit milestones think tank,
+                             design social innovation
                         </p>
                     </div>
                 </div>
 
                 <div class="col-1-of-4">
                     <div class="feature-box">
-                        <i class="feature-box-icon icon-basic-compass"></i>
+                        <i class="feature-box__icon icon-basic-compass"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">
                             Meet Nature and Breath
                         </h3>
-                        <p class="feature-box-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <p class="feature-box__text">
+                            Do-gooder; social capital design thinking social innovation
                         </p>
                     </div>
                 </div>
 
                 <div class="col-1-of-4">
                     <div class="feature-box">
-                        <i class="feature-box-icon icon-basic-map"></i>
+                        <i class="feature-box__icon icon-basic-map"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">
                             Find your way to more life
                         </h3>
-                        <p class="feature-box-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <p class="feature-box__text">
+                             Progress, program area; blended value framework
+                             design thinking
                         </p>
                     </div>
                 </div>
 
                 <div class="col-1-of-4">
                     <div class="feature-box">
-                        <i class="feature-box-icon icon-basic-heart"></i>
+                        <i class="feature-box__icon icon-basic-heart"></i>
                         <h3 class="heading-tertiary u-margin-bottom-small">
                             Live a healthier life
                         </h3>
-                        <p class="feature-box-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <p class="feature-box__text">
+                             Academic big data circular empower co-create living a fully ethical life.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-card">
+        <section class="section-tours" id="section-tours">
             <div class="u-center-text">
                 <h2 class="heading-secondary u-margin-bottom-big">
                     Most popular tours
                 </h2>
             </div>
-            <div class="row">
+           <div class="row">
                 <div class="col-1-of-3">
-                    <div class="card">
-                            <div class="card-side card-side-front">
-                                <div class="card-picture card-picture-1">
-                                    &nbsp;
-                                </div>
-                                <h4 class="card-heading">
-                                    <span class="card-heading-span card-heading-span-1">The sea explorer</span>
-                                </h4>
-                                <h4 class="card-details">
-                                    <ul>
-                                        <li>3 days Tours</li>
-                                        <li>Up to 30 people</li>
-                                        <li>2 tour guides</li>
-                                        <li>Sleep in cozy hotels</li>
-                                        <li>Difficulty: easy</li>
-                                    </ul>
-                                </h4>
-                            </div>
-                            <div class="card-side card-side-back card-side-back-1">
-                                <div class="card-cta">
-                                    <div class="card-price-box">
-                                        <p class="card-price-only">Only</p>
-                                        <p class="card-price-value">$253</p>
+                        <div class="card">
+                                <div class="card__side card__side--front">
+                                    <div class="card__picture card__picture--1">
+                                        &nbsp;
                                     </div>
-                                    <a href="#blank" class="btn btn-white">Book Now</a>
+                                    <h4 class="card__heading">
+                                        <span class="card__heading--span card__heading--span-1">The sea explorer</span>
+                                    </h4>
+                                    <h4 class="card__details">
+                                        <ul>
+                                            <li>3 days Tours</li>
+                                            <li>Up to 30 people</li>
+                                            <li>2 tour guides</li>
+                                            <li>Sleep in cozy hotels</li>
+                                            <li>Difficulty: easy</li>
+                                        </ul>
+                                    </h4>
                                 </div>
-                            </div>
+                                <div class="card__side card__side--back card__side--back-1">
+                                    <div class="card__cta">
+                                        <div class="card__price--box">
+                                            <p class="card__price--only">Only</p>
+                                            <p class="card__price--value">$205</p>
+                                        </div>
+                                        <a href="#popup" class="btn btn--white">Book Now</a>
+                                    </div>
+                                </div>
+                        </div>
                     </div>
-                </div>
+                           
                 <div class="col-1-of-3">
                     <div class="card">
-                            <div class="card-side card-side-front">
-                                <div class="card-picture card-picture-2">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--2">
                                     &nbsp;
                                 </div>
-                                <h4 class="card-heading">
-                                    <span class="card-heading-span card-heading-span-2">The forest hiker</span>
+                                <h4 class="card__heading">
+                                    <span class="card__heading--span card__heading--span-2">The forest hiker</span>
                                 </h4>
-                                <h4 class="card-details">
+                                <h4 class="card__details">
                                     <ul>
                                         <li>6 days Tours</li>
                                         <li>Up to 40 people</li>
@@ -172,27 +190,27 @@
                                     </ul>
                                 </h4>
                             </div>
-                            <div class="card-side card-side-back card-side-back-1">
-                                <div class="card-cta">
-                                    <div class="card-price-box">
-                                        <p class="card-price-only">Only</p>
-                                        <p class="card-price-value">$416</p>
+                            <div class="card__side card__side--back card__side--back-2">
+                                <div class="card__cta">
+                                    <div class="card__price--box">
+                                        <p class="card__price--only">Only</p>
+                                        <p class="card__price--value">$416</p>
                                     </div>
-                                    <a href="#blank" class="btn btn-white">Book Now</a>
+                                    <a href="#popup" class="btn btn--white">Book Now</a>
                                 </div>
                             </div>
                     </div>
                 </div>
                 <div class="col-1-of-3">
                     <div class="card">
-                            <div class="card-side card-side-front">
-                                <div class="card-picture card-picture-3">
+                            <div class="card__side card__side--front">
+                                <div class="card__picture card__picture--3">
                                     &nbsp;
                                 </div>
-                                <h4 class="card-heading">
-                                    <span class="card-heading-span card-heading-span-3">The snow adventure</span>
+                                <h4 class="card__heading">
+                                    <span class="card__heading--span card__heading--span-3">The snow adventure</span>
                                 </h4>
-                                <h4 class="card-details">
+                                <h4 class="card__details">
                                     <ul>
                                         <li>8 days Tours</li>
                                         <li>Up to 50 people</li>
@@ -202,25 +220,193 @@
                                     </ul>
                                 </h4>
                             </div>
-                            <div class="card-side card-side-back card-side-back-1">
-                                <div class="card-cta">
-                                    <div class="card-price-box">
-                                        <p class="card-price-only">Only</p>
-                                        <p class="card-price-value">$673</p>
+                            <div class="card__side card__side--back card__side--back-3">
+                                <div class="card__cta">
+                                    <div class="card__price--box">
+                                        <p class="card__price--only">Only</p>
+                                        <p class="card__price--value">$673</p>
                                     </div>
-                                    <a href="#blank" class="btn btn-white">Book Now</a>
+                                    <a href="#popup" class="btn btn--white">Book Now</a>
                                 </div>
                             </div>
                     </div>
                 </div>
             </div>
                 <div class="u-center-text u-margin-top-big">
-                    <a href="#blank" class="btn btn-green">Discover all tours</a>
+                    <a href="#blank" class="btn btn--green">Discover all tours</a>
                 </div>
             </div>
         </section>
-        
+        <section class="section-stories">
+             <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="img/La-Costa/La-Costa.mp4" type="video/mp4">
+                    <source src="img/La-Costa/La-Costa.webm" type="video/webm">
+                        Your browser is not supported
+                </video>
+            </div>
+            <div class="u-center-text">
+                <h2 class="heading-secondary u-margin-bottom-big">
+                    We make people genuinely happy
+                </h2>
+            </div>
+
+            <div class="section-stories">
+                <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="./img/alexandru-acea-1160461-unsplash.jpg" alt="Curved display monitor on a desktop" class="story__img">
+                        <figcaption class="story__caption">
+                            Mary Smith
+                        </figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">
+                            I had the best week ever with my family
+                        </h3>
+                        <p> 
+                        Unprecedented challenge collaborate indicators targeted mobilize strengthening infrastructure;
+                        Unprecedented challenge collaborate indicators targeted mobilize strengthening infrastructure;
+                        low-hanging fruit milestones think tank.Progress, program area; blended value framework
+                        design thinking, and making immense progress is not easy at all but we still got to make a difference
+                        that is incorruptible in any way, which will in turn help us to set things into motion
+                   </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="story">
+                    <figure class="story__shape">
+                        <img src="./img/annie-spratt-294449-unsplash.jpg" alt="Curved display monitor on a desktop" class="story__img">
+                        <figcaption class="story__caption">
+                            John Wilson
+                        </figcaption>
+                    </figure>
+                    <div class="story__text">
+                        <h3 class="heading-tertiary u-margin-bottom-small">
+                            Wow! My life is completely different
+                        </h3>
+                        <p> 
+                            Unprecedented challenge collaborate indicators targeted mobilize strengthening infrastructure;
+                            Unprecedented challenge collaborate indicators targeted mobilize strengthening infrastructure;
+                            low-hanging fruit milestones think tank.Progress, program area; blended value framework
+                            design thinking, and making immense progress is not easy at all but we still got to make a difference
+                            that is incorruptible in any way, which will in turn help us to set things into motion
+                       </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="u-center-text u-margin-top-big">
+                    <a href="#blank" class="btn-text">Read all stories &rarr;</a>
+                </div>
+                
+        </section>
+        <section class="section-book">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <form action="#blank" class="form">
+                                <div class="u-margin-bottom-medium">
+                                    <h2 class="heading-secondary">
+                                        Start booking now
+                                    </h2>
+                                </div>
+                            <div class="form__group">
+                                <input type="text" placeholder="Full name" id="name" class="form__input" required>
+                                <label for="name" class="form__label">Full name</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="email" placeholder="Email address" id="email" class="form__input" required>
+                                <label for="email" class="form__label">Email address</label>
+                            </div>
+
+                            <div class="form__group">
+                                <div class="form__radio--group">
+                                    <input type="radio" name="size" id="small" class="form__radio--input">
+                                    <label for="small" class="form__radio--label">
+                                        <span class="form__radio--button"></span>
+                                        Small tour group
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form__group">
+                                <div class="form__radio--group">
+                                    <input type="radio" name="size" id="large" class="form__radio--input">
+                                    <label for="large" class="form__radio--label">
+                                        <span class="form__radio--button"></span>
+                                    Large tour group
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__btn form__group">
+                            <button class="btn btn--green" type="submit">Next step &rarr;</button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer">
+        <div class="footer__logo--box">
+            <img src="img/My logo.png" alt="The logo" class="footer__logo">
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                                <li class="footer__item"><a href="#blank" class="footer__link">Company </a></li>
+                                <li class="footer__item"><a href="#blank" class="footer__link">Contact Us</a></li>
+                                <li class="footer__item"><a href="#blank" class="footer__link">Careers</a></li>
+                                <li class="footer__item"><a href="#blank" class="footer__link">Privacy policy</a></li>
+                                <li class="footer__item"><a href="#blank" class="footer__link">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Built by <a href="#blank" class="footer__link">Igboanugwo Collins</a> for my training <a href="#blank" class="footer__link">on Advanced css and sass</a>. Copyright &copy; by Jonas Schmedtmann. A credit to the original author Jonas Schmedtmann, is of course highly appreciated!!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="/img/annie-spratt-294449-unsplash.jpg" alt="Enjoying the moment" class="popup__img">
+                <!-- <img src="/img/alexandru-acea-1160461-unsplash.jpg" alt="Live healthier" class="popup__img">  -->
+            </div>
+            <div class="popup__right">
+                <a href="#section-tours" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small">
+                        Start booking now
+                </h2>
+                <h3 class="heading-tertiary u-margin-bottom-small">
+                        important &ndash; Please do read the terms and conditions
+                </h3>
+                <div class="popup__text">
+                    <p>Unprecedented challenge collaborate indicators targeted mobilize strengthening infrastructure;
+                        overwhelming things collaborate indicators targeted mobilize strengthening infrastructure;
+                        low-hanging fruit milestones think tank.
+                        low-hanging fruit milestones think tank.
+                        NGO dynamic global capacity building green space, overcome injustice or disrupt milestones.
+                        Unprecedented challenge collaborate indicators targeted mobilize strengthening infrastructure;
+                        overwhelming things collaborate indicators targeted mobilize strengthening infrastructure;
+                        low-hanging fruit milestones think tank.
+                        low-hanging fruit milestones think tank.
+                        NGO dynamic global capacity building green space, overcome injustice or disrupt milestones.
+                        Unprecedented challenge collaborate indicators targeted mobilize strengthening infrastructure;
+                        overwhelming things collaborate indicators targeted mobilize strengthening infrastructure;
+                        low-hanging fruit milestones think tank.
+                        low-hanging fruit milestones think tank.
+                        NGOdynamic global capacity building green space, overcome injustice or disrupt milestones.  </p>
+                </div>
+
+                <a href="#blank" class="btn btn--green">Book now</a>
+            </div>
+        </div>
+    </div>
     <!-- <section>
           <div class="row">
             <div class="col-1-of-2">
@@ -288,7 +474,7 @@
             </div>
         </div> 
     </section> -->
-
+<script src="script.js"></script>
 </body>
 
 </html>
